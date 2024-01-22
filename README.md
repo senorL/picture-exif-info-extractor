@@ -1,16 +1,19 @@
-<<<<<<< HEAD
-# Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+# 图片Exif信息提取插件
 
-# Learn More
+图片Exif信息提取是一个飞书插件，专为飞书多维表格设计，用于提取图片的Exif信息，如拍摄时间、地点、相机型号等。
+<img width="177" alt="image" src="https://github.com/senorL/picture-exif-info-extractor/assets/110690291/ab2b521c-061e-49cc-b24c-9696e489faa7">
 
-You can learn more in the [Base Extension Development Guide](https://bytedance.feishu.cn/docx/VxhudDXbyo1V7jxAcTbctJQ5nvc) or [多维表格扩展脚本开发指南](https://bytedance.feishu.cn/docx/HazFdSHH9ofRGKx8424cwzLlnZc).
+## 使用方法
 
-## Install packages
+在飞书多维表格中直接即可。
 
-Install packages in Shell pane or search and add in Packages pane.
-=======
-# picture-exif-info-extractor
-一个飞书插件，用于提取图片的Exif信息，并在飞书的多维表格中显示
->>>>>>> 07e6c98e6c863c43ac1bfd950b38d04f0c64de82
+## 功能特性
+
+- 提取图片的Exif信息
+- 支持多种图片格式
+- 界面友好，易于操作
+
+## 许可证
+
+[MIT](LICENSE)
+
