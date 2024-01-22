@@ -1,0 +1,22 @@
+{
+  "loading": "正在加载...",
+  "updating": "正在更新...",
+  "updateSuccess": "信息更新成功！",
+  "copySuccess": "EXIF 数据已复制到剪贴板",
+  "copyFail": "复制失败，请手动复制",
+  "photoInfo": "图片信息:",
+  "selectField": "选择字段",
+  "copyInfo": "复制信息",
+  "updateInfoToFields": "更新信息到字段",
+  "choosePictureCell": "请选择有图片的单元格。",
+  "exifCopied": "EXIF 数据已复制到剪贴板",
+  "copyFailed": "复制失败，请手动复制",
+  "noSelection": "未选中任何表格或记录",
+  "noDataToUpdate": "没有可更新的数据",
+  "updateSuccessMessage": "信息更新成功！",
+  "updateFailed": "更新失败",
+  "lastImage": "已经是最后一张图片",
+  "firstImage": "已经是第一张图片",
+  "prevImage": "上一张图片",
+  "nextImage": "下一张图片"
+}

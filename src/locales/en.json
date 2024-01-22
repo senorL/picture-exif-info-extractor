@@ -1,0 +1,22 @@
+{
+  "loading": "Loading...",
+  "updating": "Updating...",
+  "updateSuccess": "Information updated successfully!",
+  "copySuccess": "EXIF data copied to clipboard",
+  "copyFail": "Copy failed, please copy manually",
+  "photoInfo": "Photo Information:",
+  "selectField": "Select Field",
+  "copyInfo": "Copy Information",
+  "updateInfoToFields": "Update Information to Fields",
+  "choosePictureCell": "Please select a cell with a picture.",
+  "exifCopied": "EXIF data copied to clipboard",
+  "copyFailed": "Copy failed, please copy manually",
+  "noSelection": "No table or record selected",
+  "noDataToUpdate": "No data to update",
+  "updateSuccessMessage": "Information updated successfully!",
+  "updateFailed": "Update failed",
+  "lastImage": "This is the last image",
+  "firstImage": "This is the first image",
+  "prevImage": "Previous Image",
+  "nextImage": "Next Image"
+}

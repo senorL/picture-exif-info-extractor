@@ -1,0 +1,125 @@
+/* 基本样式重置 */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* 根据屏幕截图调整字体 */
+  background-color: #fff; /* 确保背景是纯白色 */
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* 应用程序样式 */
+.App {
+  margin: 0 auto; /* 如果有必要保持水平居中，可以只设置上下外边距为0 */
+  padding: 0; /* 也清除内边距，如果已经设置的话 */
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff; /* 设置背景为白色 */
+  border-radius: 10px;
+  box-shadow: none; 
+}
+
+
+/* 自定义样式 */
+ul {
+  list-style: none; /* 移除列表项前的标记 */
+  padding: 0; /* 移除默认的内边距 */
+}
+
+li {
+  margin-bottom: 10px; /* 添加列表项之间的间隔 */
+}
+
+/* 按钮样式 */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button:active {
+  background-color: #1e7e34;
+}
+
+/* EXIF 数据容器 */
+.exif-container {
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* 使按钮排列在信息下方 */
+  align-items: center; /* 居中对齐子元素 */
+  width: 100%;
+  align-items: stretch; /* 确保按钮和选择框宽度相同 */
+  margin-top: 0; /* 如果之前有设置，改为 0 */
+  padding-top: 0; /* 如果之前有设置，改为 0 */
+}
+
+/* 成功消息样式 */
+.copy-success-message {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+/* 隐藏复制成功消息 */
+.copy-success-message.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* 按钮容器，确保按钮排列在EXIF信息下方 */
+.button-container {
+  width: 100%;
+  margin-top: 10px; /* 与EXIF信息之间的间隔 */
+}
+
+/* 选择字段的下拉样式 */
+.select-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* 调整 Select 组件整体样式 */
+.semi-select {
+    width: 100%; /* 确保选择器宽度与容器匹配 */
+    border-radius: 10px; /* 圆角设置 */
+    margin-bottom: 10px; /* 与其他组件的间距 */
+}
+
+
+.semi-select:hover .semi-select-selection {
+    border-color: #1456f0; /* 边框颜色改变 */
+}
+
+
+/* 按钮容器样式调整 */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
